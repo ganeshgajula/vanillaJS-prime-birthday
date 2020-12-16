@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: url("https://images.unsplash.com/photo-1531956531700-dc0ee0f1f9a5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80")
+    no-repeat center center/cover;
+}
+
+.sectionTwo {
+  display: none;
+}
+
+main {
+  text-align: center;
+  max-width: 650px;
+  margin: 8rem auto;
+  text-align: center;
+  height: 100vh;
+  color: black;
+}
+
+input {
+  display: block;
+  margin: 1.5rem auto;
+  height: 4vh;
+  width: 20vw;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.result {
+  /* background-color: black; */
+  font-size: 1.7rem;
+  font-weight: bolder;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: #4b5563;
+  color: white;
+}
+
+.greetingTxt {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  background-color: #4b5563;
+  color: white;
+  display: inline;
+  padding: 0.7rem;
+}
+
+.playAgain {
+  display: none;
+  float: right;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  background-color: #4b5563;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  input {
+    margin: 1.5rem auto;
+    height: 4vh;
+    width: 55vw;
+  }
+}
